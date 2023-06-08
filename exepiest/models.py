@@ -79,7 +79,7 @@ class exModel(ForwardModel):
         # messages
         raise NotImplementedError
 
-    def get_serial_intervals(self):
+    def get_parameters(self):
         """
         Returns class properties / parameters.
 
@@ -87,7 +87,7 @@ class exModel(ForwardModel):
         # Reverse inverting of order of serial intervals
         return self.parameters
 
-    def set_serial_intervals(self, parameters):
+    def set_parameters(self, parameters):
         """
         Updates parameters. Add list of parameters.
 
